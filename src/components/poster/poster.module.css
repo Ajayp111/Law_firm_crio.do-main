@@ -1,0 +1,87 @@
+
+.bodywrapper{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid white; */
+    width: 1250px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+    font-family: 'Inter', sans-serif;
+    background-color:rgba(17, 17, 17, 1);
+}
+
+.bannerimg{
+    height: 320px;
+    width: 350px;
+    margin-right: 150px;
+    overflow: visible;
+    object-fit: cover;
+    background-color:rgba(17, 17, 17, 1);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    background-color:rgba(17, 17, 17, 1);
+}
+
+.first{
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    background-color:rgba(17, 17, 17, 1);
+}
+
+.second{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    background-color:rgba(17, 17, 17, 1);
+}
+
+.info{
+    opacity: 0.3;
+    width: 500px;
+    background-color:rgba(17, 17, 17, 1);
+}
+
+.bodybutton{
+    width: 400px;
+    height: 70px;
+    border-radius: 30px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.bodytalk{
+    width: 130px;
+    height: 60px;
+    background-color: rgba(227, 183, 72, 1);
+    border-radius: 30px;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.inputtext{
+    position: absolute;
+    top:25px;
+    left: 60px;
+    border: none;
+
+}
+
+.email{
+    position: absolute;
+    top: 22px;
+    left: 30px;
+}
+.back{
+    position: absolute;
+    left: 600px;
+    
+}
